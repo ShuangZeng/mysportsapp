@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.demo.mysportsapp.common.ui.TitleDetailView
+        android:id="@+id/playerNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Name"
+        />
+    <com.demo.mysportsapp.common.ui.TitleDetailView
+        android:id="@+id/playerNationalityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Nationality"
+        />
+    <com.demo.mysportsapp.common.ui.TitleDetailView
+        android:id="@+id/playerDobTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Date of Birth"
+        />
+    <com.demo.mysportsapp.common.ui.TitleDetailView
+        android:id="@+id/playerPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Position"
+        />
+    <com.demo.mysportsapp.common.ui.TitleDetailView
+        android:id="@+id/playerDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Bio"
+        />
+</LinearLayout>

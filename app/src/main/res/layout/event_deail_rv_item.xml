@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TitleOnlyTheme"
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <com.demo.mysportsapp.common.ui.TitleDetailView
+            android:id="@+id/eventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Date"
+            />
+        <com.demo.mysportsapp.common.ui.TitleDetailView
+            android:id="@+id/eventVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Venue"
+            />
+        <com.demo.mysportsapp.common.ui.TitleDetailView
+            android:id="@+id/eventLeague"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="League"
+            />
+        <com.demo.mysportsapp.common.ui.TitleDetailView
+            android:id="@+id/homeTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Home Team"
+            />
+        <com.demo.mysportsapp.common.ui.TitleDetailView
+            android:id="@+id/awayTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Away Team"
+            />
+        <com.demo.mysportsapp.common.ui.TitleDetailView
+            style="@style/TitleOnlyTheme"
+            android:id="@+id/homeAwayScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Home Away Score"
+            />
+</LinearLayout>

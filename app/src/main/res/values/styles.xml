@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleOnlyTheme">
+        <item name="android:textColor">@color/titleTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/titleDetailPadding</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+</resources>

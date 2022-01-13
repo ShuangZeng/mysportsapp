@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.309375" />
+        <entry key="app/src/main/res/layout/activity_sport_uihost.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/activity_team_search_host_ui.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_text_prompt.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/team_deail_rv_item.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/team_detail_framgnet.xml" value="0.19902912621359223" />
+        <entry key="app/src/main/res/layout/team_search_framgnet.xml" value="0.2767210144927536" />
+        <entry key="app/src/main/res/layout/teamdeail_rv_item.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/title_detail_layout.xml" value="0.335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
